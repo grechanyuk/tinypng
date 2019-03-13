@@ -1,0 +1,44 @@
+{
+    "name": "grechanyuk/tinypng",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/grechanyuk/tinypng",
+    "keywords": ["Laravel", "TinyPNG"],
+    "require": {
+        "illuminate/support": "~5",
+        "tinify/tinify": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grechanyuk\\TinyPNG\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Grechanyuk\\TinyPNG\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grechanyuk\\TinyPNG\\TinyPNGServiceProvider"
+            ],
+            "aliases": {
+                "TinyPNG": "Grechanyuk\\TinyPNG\\Facades\\TinyPNG"
+            }
+        }
+    }
+}
