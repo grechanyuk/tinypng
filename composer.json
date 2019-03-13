@@ -1,12 +1,11 @@
 {
     "name": "grechanyuk/tinypng",
-    "description": ":description",
-    "license": "license",
+    "description": "TinyPNG package for Laravel",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Egor G.",
+            "email": "xorolllo@hotmail.com"
         }
     ],
     "homepage": "https://github.com/grechanyuk/tinypng",
